@@ -1,1 +1,6 @@
 *.xcuserstate
+EDUtitlies.xcworkspace/xcuserdata/ewilson.xcuserdatad/UserInterfaceState.xcuserstate
+EDUtilitiesDemo/Pods/Pods.xcodeproj/xcuserdata/ewilson.xcuserdatad/xcschemes/Pods-EDUtilitiesDemoTests.xcscheme
+EDUtilitiesDemo/Pods/Pods.xcodeproj/xcuserdata/ewilson.xcuserdatad/xcschemes/Pods-EDUtilitiesDemo.xcscheme
+EDUtilitiesDemo/Pods/Pods.xcodeproj/xcuserdata/ewilson.xcuserdatad/xcschemes/Pods-EDUtilitiesDemo-EDUtilitiesDemoUITests.xcscheme
+EDUtilitiesDemo/EDUtilitiesDemo.xcworkspace/xcuserdata/ewilson.xcuserdatad/UserInterfaceState.xcuserstate
