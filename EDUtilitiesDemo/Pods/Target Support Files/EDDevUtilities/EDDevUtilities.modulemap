@@ -1,0 +1,6 @@
+framework module EDDevUtilities {
+  umbrella header "EDDevUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

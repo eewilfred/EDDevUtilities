@@ -1,0 +1,16 @@
+PODS:
+  - EDDevUtilities (0.0.3)
+
+DEPENDENCIES:
+  - EDDevUtilities
+
+SPEC REPOS:
+  trunk:
+    - EDDevUtilities
+
+SPEC CHECKSUMS:
+  EDDevUtilities: 1642d26370aabd9413dcc3f5b81dd57fdd7d9321
+
+PODFILE CHECKSUM: 63d6a77bc5e46997b2bd967a973a6a4088e9682a
+
+COCOAPODS: 1.10.1

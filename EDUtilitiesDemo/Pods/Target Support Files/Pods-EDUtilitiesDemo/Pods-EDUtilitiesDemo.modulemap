@@ -1,0 +1,6 @@
+framework module Pods_EDUtilitiesDemo {
+  umbrella header "Pods-EDUtilitiesDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,7 +10,7 @@ import UIKit
 
 open class BackRoutableViewController: UIViewController, BackRoutable {
 
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
 
         super.viewDidLoad()
         configureBackRoute()

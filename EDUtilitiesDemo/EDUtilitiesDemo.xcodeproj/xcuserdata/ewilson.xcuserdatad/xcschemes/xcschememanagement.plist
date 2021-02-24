@@ -7,7 +7,25 @@
 		<key>EDUtilitiesDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D73BDB825E3855800CA2AEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D73BDD125E3855A00CA2AEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D73BDDC25E3855A00CA2AEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
