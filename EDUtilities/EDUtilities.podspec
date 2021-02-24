@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "EDUtilities"
-  spec.version      = "0.0.8"
+  spec.name         = "EDDevUtilities"
+  spec.version      = "0.0.1"
   spec.summary      = "Collection of utilities I been using for making projects"
 
   # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Thread safe variables and many more.
 Most of this are just for my personal use cases but can be used to get inspirations
  DESC
 
-  spec.homepage     = "https://github.com/eewilfred/EDUtilities"
+  spec.homepage     = "https://github.com/eewilfred/EDDevUtilities"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -44,8 +44,7 @@ Most of this are just for my personal use cases but can be used to get inspirati
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "Free For All with no liability on me for any case or scenarios"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -59,8 +58,6 @@ Most of this are just for my personal use cases but can be used to get inspirati
   #
 
   spec.author             = { "Edwin Wilson" => "edwin33wilson@gmail.com" }
-  # Or just: spec.author    = "Edwin Wilson"
-  # spec.authors            = { "Edwin Wilson" => "edwinwilson@ymail.com" }
   # spec.social_media_url   = "https://twitter.com/Edwin Wilson"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +93,7 @@ Most of this are just for my personal use cases but can be used to get inspirati
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "EDUtilities", "EDUtilities/**/*.{h,m,swift}"
+  spec.source_files  = "EDDevUtilities", "EDDevUtilities/**/*.{h,m,swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -139,5 +136,7 @@ Most of this are just for my personal use cases but can be used to get inspirati
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+spec.swift_version = "5.0"
 
 end

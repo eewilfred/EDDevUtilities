@@ -84,7 +84,7 @@
 		1D460BAA24FCE84F001FCB62 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		1D5BD8A925C069830030CA7F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1D73BDAA25E3846E00CA2AEF /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
-		1DC931F724EE83A5002889C4 /* EDUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EDUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC931F724EE83A5002889C4 /* EDDevUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EDDevUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC931FA24EE83A5002889C4 /* EDUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDUtilities.h; sourceTree = "<group>"; };
 		1DC931FB24EE83A5002889C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC9321224EE83BB002889C4 /* LayoutExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutExtenstions.swift; sourceTree = "<group>"; };
@@ -272,7 +272,7 @@
 		1DC931F824EE83A5002889C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DC931F724EE83A5002889C4 /* EDUtilities.framework */,
+				1DC931F724EE83A5002889C4 /* EDDevUtilities.framework */,
 				1D0766F824F2632200D1CAC5 /* Demo.app */,
 			);
 			name = Products;
@@ -341,9 +341,9 @@
 			productReference = 1D0766F824F2632200D1CAC5 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1DC931F624EE83A5002889C4 /* EDUtilities */ = {
+		1DC931F624EE83A5002889C4 /* EDDevUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DC9320B24EE83A5002889C4 /* Build configuration list for PBXNativeTarget "EDUtilities" */;
+			buildConfigurationList = 1DC9320B24EE83A5002889C4 /* Build configuration list for PBXNativeTarget "EDDevUtilities" */;
 			buildPhases = (
 				1DC931F224EE83A5002889C4 /* Headers */,
 				1DC931F324EE83A5002889C4 /* Sources */,
@@ -354,9 +354,9 @@
 			);
 			dependencies = (
 			);
-			name = EDUtilities;
+			name = EDDevUtilities;
 			productName = EDUtilities;
-			productReference = 1DC931F724EE83A5002889C4 /* EDUtilities.framework */;
+			productReference = 1DC931F724EE83A5002889C4 /* EDDevUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -377,7 +377,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DC931F124EE83A5002889C4 /* Build configuration list for PBXProject "EDUtilities" */;
+			buildConfigurationList = 1DC931F124EE83A5002889C4 /* Build configuration list for PBXProject "EDDevUtilities" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -390,7 +390,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DC931F624EE83A5002889C4 /* EDUtilities */,
+				1DC931F624EE83A5002889C4 /* EDDevUtilities */,
 				1D0766F724F2632200D1CAC5 /* Demo */,
 			);
 		};
@@ -669,7 +669,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eandd.EDUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = eandd.EDDevUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -693,7 +693,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eandd.EDUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = eandd.EDDevUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -713,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DC931F124EE83A5002889C4 /* Build configuration list for PBXProject "EDUtilities" */ = {
+		1DC931F124EE83A5002889C4 /* Build configuration list for PBXProject "EDDevUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DC9320924EE83A5002889C4 /* Debug */,
@@ -722,7 +722,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DC9320B24EE83A5002889C4 /* Build configuration list for PBXNativeTarget "EDUtilities" */ = {
+		1DC9320B24EE83A5002889C4 /* Build configuration list for PBXNativeTarget "EDDevUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DC9320C24EE83A5002889C4 /* Debug */,

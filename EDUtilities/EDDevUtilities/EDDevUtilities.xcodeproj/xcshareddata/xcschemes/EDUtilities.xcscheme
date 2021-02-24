@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1DC931F624EE83A5002889C4"
-               BuildableName = "EDUtilities.framework"
-               BlueprintName = "EDUtilities"
-               ReferencedContainer = "container:EDUtilities.xcodeproj">
+               BuildableName = "EDDevUtilities.framework"
+               BlueprintName = "EDDevUtilities"
+               ReferencedContainer = "container:EDDevUtilities.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1DC931FF24EE83A5002889C4"
-               BuildableName = "EDUtilitiesTests.xctest"
-               BlueprintName = "EDUtilitiesTests"
-               ReferencedContainer = "container:EDUtilities.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -61,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC931F624EE83A5002889C4"
-            BuildableName = "EDUtilities.framework"
-            BlueprintName = "EDUtilities"
-            ReferencedContainer = "container:EDUtilities.xcodeproj">
+            BuildableName = "EDDevUtilities.framework"
+            BlueprintName = "EDDevUtilities"
+            ReferencedContainer = "container:EDDevUtilities.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
